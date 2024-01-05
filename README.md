@@ -1,4 +1,4 @@
-### Enhancing Web Security User-Agent Manipulation with Burp Suite
+### Enhancing Web Security 'User-Agent' Manipulation with Burp Suite
 In the context of __Burp Suite__, __'User-Agent'__ refers to an __HTTP header__ used to identify information about the browser or client making a web request. 
 
 This header provides __details__ about the browser type, version, and, in some cases, the user's operating system. 
