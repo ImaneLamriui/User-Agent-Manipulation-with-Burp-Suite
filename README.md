@@ -1,16 +1,19 @@
-## Enhancing Web Security 'User-Agent' Manipulation with Burp Suite
-In the context of __Burp Suite__, __'User-Agent'__ refers to an __HTTP header__ used to identify information about the browser or client making a web request. 
+# Manipulación de 'User-Agent' en Ciberseguridad
 
-This header provides __details__ about the browser type, version, and, in some cases, the user's operating system. 
+En el contexto de **Burp Suite**, el **'User-Agent'** es una **cabecera HTTP** que identifica información sobre el navegador o cliente que realiza una solicitud web.  
+Esta cabecera incluye detalles como el tipo de navegador, la versión y, en algunos casos, el sistema operativo del usuario.
 
-It is part of __the information sent by the browser to the web server__ so that the server can tailor its response based on the client. 
+Los sitios web pueden personalizar su contenido en función del **User-Agent** recibido, adaptando la presentación según el tipo de dispositivo o navegador que accede al sitio.
 
-It's common for some websites to customize their content based on the __User-Agent__ received in HTTP requests. 
+En pruebas de **seguridad web**, modificar el **User-Agent** permite:
+- Evaluar cómo responde un sitio web a diferentes navegadores o dispositivos.
+- Detectar **posibles vulnerabilidades** o problemas de seguridad.
+- Evasión de filtros o firewalls que bloquean ciertos agentes.
 
-Websites may use this information to adjust their content and presentation according to __the type of device or browser__ accessing the site.
+## Recursos útiles
 
-In the context of __web security testing__, professionals often modify the __User-Agent__ to assess how a website responds to different browser configurations or devices and to uncover __potential vulnerabilities__ or __security issues__.
-
-###### List of User-Agent Strings for Various Browsers and Devices: https://www.useragentstring.com/
-
-
+- **Referencia oficial (MDN Web Docs):** [User-Agent Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent)  
+- **Colección de User-Agents para pruebas:** [UserAgentString.com](https://www.useragentstring.com/)  
+- **Listas de User-Agents en GitHub:** [List of User-Agents](https://github.com/tamimibrahim17/List-of-user-agents)  
+- **Información de parsing y bases de datos avanzadas:** [51Degrees User-Agent Data](https://51degrees.com/resources/user-agent-data)  
+- **Explorador de User-Agents por navegador y dispositivo:** [WhatIsMyBrowser.com](https://developers.whatismybrowser.com/useragents/)
