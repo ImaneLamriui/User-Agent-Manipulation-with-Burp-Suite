@@ -66,5 +66,13 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 Googlebot:
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
 
+```
+---
 
+<img src="peticion1.png" alt="Petición 1">
 
+<img src="respuesta1.png" alt="Petición interceptada1">
+
+<img src="peticion2.png" alt="Petición 2">
+
+<img src="respuesta2.png" alt="Petición interceptada2">
