@@ -19,7 +19,7 @@ Los servidores pueden adaptar contenido o comportamiento en función del `User-A
 
 ---
 
-## Cómo reproducir la demo (resumen rápido)
+## Resumen rápido
 
 > Recomendado: Kali Linux + Burp Suite + navegador (Firefox/Chromium)
 
